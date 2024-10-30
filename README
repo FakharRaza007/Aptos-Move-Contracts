@@ -1,0 +1,7 @@
+To publish code_command :       aptos move publish  --dev   --skip-fetch-latest-git-deps 
+
+2 - often an error comes when you redeploy code with same contract name , (change contract name from .move file and in .toml file also)
+
+
+
+

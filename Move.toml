@@ -1,0 +1,20 @@
+[package]
+name = "MyFungibleToken"
+version = "1.0.0"
+authors = []
+
+[addresses]
+farmer  = "_"
+
+[dev-addresses]
+farmer = "0x8c0f1e99e99832227e48cc45f562680231d05b97001a3e39677dc594d340935d"
+
+[dependencies]
+AptosStdlib = { git = "https://github.com/aptos-labs/aptos-core.git", rev = "main", subdir = "aptos-move/framework/aptos-stdlib" }
+AptosToken = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-token", rev = "main" }
+AptosTokenObjects = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-token-objects", rev = "main" }
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "main"
+subdir = "aptos-move/framework/aptos-framework"
